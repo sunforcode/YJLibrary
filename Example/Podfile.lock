@@ -1,0 +1,18 @@
+PODS:
+  - YJLibrary (0.1.0):
+    - YJLibrary/Source (= 0.1.0)
+  - YJLibrary/Source (0.1.0)
+
+DEPENDENCIES:
+  - YJLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  YJLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJLibrary: c063374ef1927e85e3ccefaa7a6cca092e19714d
+
+PODFILE CHECKSUM: 9a2c36fe96d264d1e3e4784c97289a2b1a0d18db
+
+COCOAPODS: 1.8.3

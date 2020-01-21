@@ -1,0 +1,29 @@
+{
+  "name": "YJLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of YJLibrary.",
+  "description": "my library",
+  "homepage": "https://github.com/363148025@qq.com/YJLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "363148025@qq.com": "363148025@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/363148025@qq.com/YJLibrary.git",
+    "tag": "0.1.0",
+    "submodules": true
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YJLibrary/Classes/**/*.{h,m}",
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "YJLibrary/Classes/Source/*.{h,m}"
+    }
+  ]
+}

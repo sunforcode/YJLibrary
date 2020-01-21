@@ -7,7 +7,5 @@ target 'YJLibrary_Example' do
 
   target 'YJLibrary_Tests' do
     inherit! :search_paths
-
-    
   end
 end

@@ -17,26 +17,34 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'my library'
 
   s.homepage         = 'https://github.com/363148025@qq.com/YJLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '363148025@qq.com' => '363148025@qq.com' }
-  s.source           = { :git => 'https://github.com/363148025@qq.com/YJLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/363148025@qq.com/YJLibrary.git', :tag => s.version.to_s , :submodules => true}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YJLibrary/Classes/**/*'
+  s.source_files = 'YJLibrary/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'YJLibrary' => ['YJLibrary/Assets/*.png']
   # }
+  s.subspec 'Source' do |ss|
+    ss.source_files = 'YJLibrary/Classes/Source/*.{h,m}'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'YJLibrary/Classes/YJLibrary.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    # s.subspec 'Serialization' do |ss|
+    # ss.source_files = 'AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
+    # ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
+    # ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    # ss.osx.frameworks = 'CoreServices'
+  # end
 end
