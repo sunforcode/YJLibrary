@@ -12,7 +12,7 @@
 @implementation Person
 
 + (void)initialize {
-    char * name = object_getClassName([self class]);
+    const char * name = object_getClassName([self class]);
     NSLog(@"%s====%s",__func__,name);
 }
 
