@@ -1,29 +1,35 @@
 {
   "name": "YJLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of YJLibrary.",
-  "description": "my library",
-  "homepage": "https://github.com/363148025@qq.com/YJLibrary",
+  "version": "200325.14.33",
+  "description": "generate by apic",
+  "summary": "The sdk for XCFPTApiKit generate by apic.",
+  "homepage": "https://github.com/xiachufang/pt-xcfapi-client-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "363148025@qq.com": "363148025@qq.com"
+    "Four": "wujianming@xiachufang.com"
   },
   "source": {
-    "git": "https://github.com/363148025@qq.com/YJLibrary.git",
-    "tag": "0.1.0",
-    "submodules": true
+    "git": "https://github.com/xiachufang/pt-xcfapi-client-ios",
+    "tag": "200325.14.33"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YJLibrary/Classes/**/*.{h,m}",
-  "subspecs": [
-    {
-      "name": "Source",
-      "source_files": "YJLibrary/Classes/Source/*.{h,m}"
-    }
-  ]
+  "frameworks": "Foundation",
+  "source_files": "XCFPTApiKit/**/*",
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ReactiveObjC": [
+
+    ]
+  }
 }
