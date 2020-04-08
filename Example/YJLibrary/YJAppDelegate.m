@@ -7,11 +7,19 @@
 //
 
 #import "YJAppDelegate.h"
+#import <YJLibrary/PTApiNewageService.h>
 
 @implementation YJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [PTApiNewageService shared].commonParamsBlock = ^(PTCommonRequestParameterMessage * _Nonnull commonParams) {
+        commonParams.origin = @"iphone";
+    };
+    
+    [PTApiNewageService shared].headerParamsBlock = ^(PTHeaderMessage * _Nonnull headerParams) {
+        headerParams.sign = @"132";
+    };
     // Override point for customization after application launch.
     return YES;
 }

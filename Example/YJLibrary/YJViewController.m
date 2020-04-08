@@ -7,7 +7,7 @@
 //
 
 #import "YJViewController.h"
-//#import <YJLibrary.h>
+#import <YJLibrary/PTApiNewageService+AD.h>
 @interface YJViewController ()
 
 @end
@@ -17,6 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    PTCacheSplashAdsReqMessage *msg = [[PTCacheSplashAdsReqMessage alloc]init];
+
+    
+    
+    [[[PTApiNewageService shared]cacheSplashAdsWithReqParameters:msg]subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }error:^(NSError * _Nullable error) {
+        NSLog(@"%@",error);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
