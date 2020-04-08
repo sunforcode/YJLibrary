@@ -7,7 +7,7 @@
 //
 
 #import "YJViewController.h"
-#import <YJLibrary.h>
+//#import <YJLibrary.h>
 @interface YJViewController ()
 
 @end

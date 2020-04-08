@@ -20,6 +20,17 @@
     "ios": "8.0"
   },
   "source_files": "XCFPTApiKit/*.{h,m}",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ReactiveObjC": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "service",

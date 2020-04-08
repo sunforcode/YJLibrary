@@ -589,6 +589,7 @@ Pod::Spec.new do |s|
      
         end
   end
-
-
+ s.dependency 'AFNetworking'
+ s.dependency 'YYModel'
+ s.dependency 'ReactiveObjC'
 end

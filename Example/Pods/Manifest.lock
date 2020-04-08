@@ -1,9 +1,30 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ReactiveObjC (3.1.1)
   - YJLibrary (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/models (= 0.1.0)
     - YJLibrary/service (= 0.1.0)
     - YJLibrary/viewmodels (= 0.1.0)
+    - YYModel
   - YJLibrary/models (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/models/ad (= 0.1.0)
     - YJLibrary/models/advertiser (= 0.1.0)
     - YJLibrary/models/board (= 0.1.0)
@@ -33,63 +54,195 @@ PODS:
     - YJLibrary/models/usersys (= 0.1.0)
     - YJLibrary/models/waterfallrecommendation (= 0.1.0)
     - YJLibrary/models/welfare (= 0.1.0)
-  - YJLibrary/models/ad (0.1.0)
+    - YYModel
+  - YJLibrary/models/ad (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
   - YJLibrary/models/advertiser (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/models/advertiser/ad (= 0.1.0)
     - YJLibrary/models/advertiser/common (= 0.1.0)
-  - YJLibrary/models/advertiser/ad (0.1.0)
-  - YJLibrary/models/advertiser/common (0.1.0)
-  - YJLibrary/models/board (0.1.0)
-  - YJLibrary/models/chucode (0.1.0)
+    - YYModel
+  - YJLibrary/models/advertiser/ad (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/advertiser/common (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/board (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/chucode (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
   - YJLibrary/models/chustudio (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/models/chustudio/classroomtab (= 0.1.0)
     - YJLibrary/models/chustudio/coursefeedback (= 0.1.0)
     - YJLibrary/models/chustudio/courserate (= 0.1.0)
     - YJLibrary/models/chustudio/coursetag (= 0.1.0)
     - YJLibrary/models/chustudio/coursevoucher (= 0.1.0)
-  - YJLibrary/models/chustudio/classroomtab (0.1.0)
-  - YJLibrary/models/chustudio/coursefeedback (0.1.0)
-  - YJLibrary/models/chustudio/courserate (0.1.0)
-  - YJLibrary/models/chustudio/coursetag (0.1.0)
-  - YJLibrary/models/chustudio/coursevoucher (0.1.0)
-  - YJLibrary/models/comment (0.1.0)
-  - YJLibrary/models/common (0.1.0)
-  - YJLibrary/models/course (0.1.0)
-  - YJLibrary/models/dish (0.1.0)
+    - YYModel
+  - YJLibrary/models/chustudio/classroomtab (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/chustudio/coursefeedback (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/chustudio/courserate (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/chustudio/coursetag (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/chustudio/coursevoucher (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/comment (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/common (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/course (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/dish (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
   - YJLibrary/models/ec (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/models/ec/commentprompt (= 0.1.0)
     - YJLibrary/models/ec/goods (= 0.1.0)
     - YJLibrary/models/ec/markettab (= 0.1.0)
     - YJLibrary/models/ec/review (= 0.1.0)
     - YJLibrary/models/ec/shop (= 0.1.0)
-  - YJLibrary/models/ec/commentprompt (0.1.0)
-  - YJLibrary/models/ec/goods (0.1.0)
-  - YJLibrary/models/ec/markettab (0.1.0)
-  - YJLibrary/models/ec/review (0.1.0)
-  - YJLibrary/models/ec/shop (0.1.0)
-  - YJLibrary/models/equipment (0.1.0)
-  - YJLibrary/models/essay (0.1.0)
-  - YJLibrary/models/event (0.1.0)
-  - YJLibrary/models/hybridlist (0.1.0)
-  - YJLibrary/models/interestedtag (0.1.0)
-  - YJLibrary/models/notification (0.1.0)
-  - YJLibrary/models/post (0.1.0)
-  - YJLibrary/models/question (0.1.0)
-  - YJLibrary/models/questionnaire (0.1.0)
-  - YJLibrary/models/recipe (0.1.0)
-  - YJLibrary/models/recipeappraisal (0.1.0)
-  - YJLibrary/models/search (0.1.0)
-  - YJLibrary/models/similaressay (0.1.0)
-  - YJLibrary/models/similarrecipe (0.1.0)
-  - YJLibrary/models/theme (0.1.0)
-  - YJLibrary/models/user (0.1.0)
+    - YYModel
+  - YJLibrary/models/ec/commentprompt (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/ec/goods (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/ec/markettab (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/ec/review (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/ec/shop (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/equipment (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/essay (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/event (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/hybridlist (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/interestedtag (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/notification (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/post (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/question (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/questionnaire (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/recipe (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/recipeappraisal (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/search (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/similaressay (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/similarrecipe (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/theme (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/user (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
   - YJLibrary/models/usersys (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/models/usersys/accountdeactivationapplication (= 0.1.0)
-  - YJLibrary/models/usersys/accountdeactivationapplication (0.1.0)
-  - YJLibrary/models/waterfallrecommendation (0.1.0)
-  - YJLibrary/models/welfare (0.1.0)
-  - YJLibrary/service (0.1.0)
+    - YYModel
+  - YJLibrary/models/usersys/accountdeactivationapplication (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/waterfallrecommendation (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/models/welfare (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/service (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
   - YJLibrary/viewmodels (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
     - YJLibrary/viewmodels/account (= 0.1.0)
     - YJLibrary/viewmodels/ad (= 0.1.0)
     - YJLibrary/viewmodels/advertiser (= 0.1.0)
@@ -139,65 +292,223 @@ PODS:
     - YJLibrary/viewmodels/topcoursespurchasedbyconsumers (= 0.1.0)
     - YJLibrary/viewmodels/vodvideo (= 0.1.0)
     - YJLibrary/viewmodels/welfare (= 0.1.0)
-  - YJLibrary/viewmodels/account (0.1.0)
-  - YJLibrary/viewmodels/ad (0.1.0)
-  - YJLibrary/viewmodels/advertiser (0.1.0)
-  - YJLibrary/viewmodels/board (0.1.0)
-  - YJLibrary/viewmodels/chucode (0.1.0)
-  - YJLibrary/viewmodels/classroom (0.1.0)
-  - YJLibrary/viewmodels/classroomtab (0.1.0)
-  - YJLibrary/viewmodels/course (0.1.0)
-  - YJLibrary/viewmodels/coursedishes (0.1.0)
-  - YJLibrary/viewmodels/coursefeedback (0.1.0)
-  - YJLibrary/viewmodels/coursefreeforlimitedtime (0.1.0)
-  - YJLibrary/viewmodels/courserankinglist (0.1.0)
-  - YJLibrary/viewmodels/courserate (0.1.0)
-  - YJLibrary/viewmodels/courserefresh (0.1.0)
-  - YJLibrary/viewmodels/coursetag (0.1.0)
-  - YJLibrary/viewmodels/coursevoucher (0.1.0)
-  - YJLibrary/viewmodels/discoverrecipe (0.1.0)
-  - YJLibrary/viewmodels/dish (0.1.0)
-  - YJLibrary/viewmodels/ec (0.1.0)
-  - YJLibrary/viewmodels/equipment (0.1.0)
-  - YJLibrary/viewmodels/essay (0.1.0)
-  - YJLibrary/viewmodels/event (0.1.0)
-  - YJLibrary/viewmodels/experiment (0.1.0)
-  - YJLibrary/viewmodels/feeds (0.1.0)
-  - YJLibrary/viewmodels/freepubliccourse (0.1.0)
-  - YJLibrary/viewmodels/homepage (0.1.0)
-  - YJLibrary/viewmodels/interestedtag (0.1.0)
-  - YJLibrary/viewmodels/markettab (0.1.0)
-  - YJLibrary/viewmodels/notification (0.1.0)
-  - YJLibrary/viewmodels/ordercomment (0.1.0)
-  - YJLibrary/viewmodels/pkx (0.1.0)
-  - YJLibrary/viewmodels/question (0.1.0)
-  - YJLibrary/viewmodels/questionnaire (0.1.0)
-  - YJLibrary/viewmodels/recipe (0.1.0)
-  - YJLibrary/viewmodels/recipeappraisal (0.1.0)
-  - YJLibrary/viewmodels/recipedishes (0.1.0)
-  - YJLibrary/viewmodels/recipefeeds (0.1.0)
-  - YJLibrary/viewmodels/recipepagemetainfo (0.1.0)
-  - YJLibrary/viewmodels/recipequestion (0.1.0)
-  - YJLibrary/viewmodels/samecityrecommendations (0.1.0)
-  - YJLibrary/viewmodels/search (0.1.0)
-  - YJLibrary/viewmodels/sharerecipe (0.1.0)
-  - YJLibrary/viewmodels/similaressay (0.1.0)
-  - YJLibrary/viewmodels/similarquestion (0.1.0)
-  - YJLibrary/viewmodels/similarrecipe (0.1.0)
-  - YJLibrary/viewmodels/theme (0.1.0)
-  - YJLibrary/viewmodels/topcoursespurchasedbyconsumers (0.1.0)
-  - YJLibrary/viewmodels/vodvideo (0.1.0)
-  - YJLibrary/viewmodels/welfare (0.1.0)
+    - YYModel
+  - YJLibrary/viewmodels/account (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/ad (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/advertiser (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/board (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/chucode (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/classroom (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/classroomtab (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/course (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/coursedishes (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/coursefeedback (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/coursefreeforlimitedtime (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/courserankinglist (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/courserate (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/courserefresh (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/coursetag (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/coursevoucher (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/discoverrecipe (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/dish (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/ec (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/equipment (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/essay (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/event (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/experiment (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/feeds (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/freepubliccourse (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/homepage (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/interestedtag (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/markettab (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/notification (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/ordercomment (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/pkx (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/question (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/questionnaire (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/recipe (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/recipeappraisal (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/recipedishes (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/recipefeeds (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/recipepagemetainfo (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/recipequestion (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/samecityrecommendations (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/search (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/sharerecipe (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/similaressay (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/similarquestion (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/similarrecipe (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/theme (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/topcoursespurchasedbyconsumers (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/vodvideo (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YJLibrary/viewmodels/welfare (0.1.0):
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - YJLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - ReactiveObjC
+    - YYModel
 
 EXTERNAL SOURCES:
   YJLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YJLibrary: f841409e91e4d9e8a29ffcdd5f5bf6906560aa5b
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YJLibrary: a45cc91b4f19c731ab5f684c5c1a8620fc8375c5
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 9a2c36fe96d264d1e3e4784c97289a2b1a0d18db
 
