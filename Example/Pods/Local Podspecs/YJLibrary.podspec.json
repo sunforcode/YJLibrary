@@ -1,9 +1,9 @@
 {
   "name": "YJLibrary",
   "version": "0.1.0",
-  "summary": "A short description of YJLibrary.",
-  "description": "my library",
-  "homepage": "https://github.com/363148025@qq.com/YJLibrary",
+  "summary": "sunyongjideku",
+  "description": "my library yong  yu ceshi lai shiyong de",
+  "homepage": "https://github.com/sunforcode/YJLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,18 +12,402 @@
     "363148025@qq.com": "363148025@qq.com"
   },
   "source": {
-    "git": "https://github.com/363148025@qq.com/YJLibrary.git",
+    "git": "https://github.com/sunforcode/YJLibrary.git",
     "tag": "0.1.0",
     "submodules": true
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YJLibrary/Classes/**/*.{h,m}",
+  "source_files": "XCFPTApiKit/*.{h,m}",
   "subspecs": [
     {
-      "name": "Source",
-      "source_files": "YJLibrary/Classes/Source/*.{h,m}"
+      "name": "service",
+      "source_files": "XCFPTApiKit/service/*.{h,m}"
+    },
+    {
+      "name": "viewmodels",
+      "source_files": "XCFPTApiKit/viewmodels/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "equipment",
+          "source_files": "XCFPTApiKit/viewmodels/equipment/*.{h,m}"
+        },
+        {
+          "name": "ordercomment",
+          "source_files": "XCFPTApiKit/viewmodels/ordercomment/*.{h,m}"
+        },
+        {
+          "name": "recipe",
+          "source_files": "XCFPTApiKit/viewmodels/recipe/*.{h,m}"
+        },
+        {
+          "name": "markettab",
+          "source_files": "XCFPTApiKit/viewmodels/markettab/*.{h,m}"
+        },
+        {
+          "name": "homepage",
+          "source_files": "XCFPTApiKit/viewmodels/homepage/*.{h,m}"
+        },
+        {
+          "name": "chucode",
+          "source_files": "XCFPTApiKit/viewmodels/chucode/*.{h,m}"
+        },
+        {
+          "name": "experiment",
+          "source_files": "XCFPTApiKit/viewmodels/experiment/*.{h,m}"
+        },
+        {
+          "name": "pkx",
+          "source_files": "XCFPTApiKit/viewmodels/pkx/*.{h,m}"
+        },
+        {
+          "name": "courserankinglist",
+          "source_files": "XCFPTApiKit/viewmodels/courserankinglist/*.{h,m}"
+        },
+        {
+          "name": "freepubliccourse",
+          "source_files": "XCFPTApiKit/viewmodels/freepubliccourse/*.{h,m}"
+        },
+        {
+          "name": "coursefreeforlimitedtime",
+          "source_files": "XCFPTApiKit/viewmodels/coursefreeforlimitedtime/*.{h,m}"
+        },
+        {
+          "name": "coursevoucher",
+          "source_files": "XCFPTApiKit/viewmodels/coursevoucher/*.{h,m}"
+        },
+        {
+          "name": "questionnaire",
+          "source_files": "XCFPTApiKit/viewmodels/questionnaire/*.{h,m}"
+        },
+        {
+          "name": "dish",
+          "source_files": "XCFPTApiKit/viewmodels/dish/*.{h,m}"
+        },
+        {
+          "name": "event",
+          "source_files": "XCFPTApiKit/viewmodels/event/*.{h,m}"
+        },
+        {
+          "name": "course",
+          "source_files": "XCFPTApiKit/viewmodels/course/*.{h,m}"
+        },
+        {
+          "name": "topcoursespurchasedbyconsumers",
+          "source_files": "XCFPTApiKit/viewmodels/topcoursespurchasedbyconsumers/*.{h,m}"
+        },
+        {
+          "name": "question",
+          "source_files": "XCFPTApiKit/viewmodels/question/*.{h,m}"
+        },
+        {
+          "name": "welfare",
+          "source_files": "XCFPTApiKit/viewmodels/welfare/*.{h,m}"
+        },
+        {
+          "name": "classroomtab",
+          "source_files": "XCFPTApiKit/viewmodels/classroomtab/*.{h,m}"
+        },
+        {
+          "name": "similaressay",
+          "source_files": "XCFPTApiKit/viewmodels/similaressay/*.{h,m}"
+        },
+        {
+          "name": "courserefresh",
+          "source_files": "XCFPTApiKit/viewmodels/courserefresh/*.{h,m}"
+        },
+        {
+          "name": "interestedtag",
+          "source_files": "XCFPTApiKit/viewmodels/interestedtag/*.{h,m}"
+        },
+        {
+          "name": "search",
+          "source_files": "XCFPTApiKit/viewmodels/search/*.{h,m}"
+        },
+        {
+          "name": "similarrecipe",
+          "source_files": "XCFPTApiKit/viewmodels/similarrecipe/*.{h,m}"
+        },
+        {
+          "name": "feeds",
+          "source_files": "XCFPTApiKit/viewmodels/feeds/*.{h,m}"
+        },
+        {
+          "name": "sharerecipe",
+          "source_files": "XCFPTApiKit/viewmodels/sharerecipe/*.{h,m}"
+        },
+        {
+          "name": "advertiser",
+          "source_files": "XCFPTApiKit/viewmodels/advertiser/*.{h,m}"
+        },
+        {
+          "name": "theme",
+          "source_files": "XCFPTApiKit/viewmodels/theme/*.{h,m}"
+        },
+        {
+          "name": "vodvideo",
+          "source_files": "XCFPTApiKit/viewmodels/vodvideo/*.{h,m}"
+        },
+        {
+          "name": "essay",
+          "source_files": "XCFPTApiKit/viewmodels/essay/*.{h,m}"
+        },
+        {
+          "name": "board",
+          "source_files": "XCFPTApiKit/viewmodels/board/*.{h,m}"
+        },
+        {
+          "name": "coursetag",
+          "source_files": "XCFPTApiKit/viewmodels/coursetag/*.{h,m}"
+        },
+        {
+          "name": "coursedishes",
+          "source_files": "XCFPTApiKit/viewmodels/coursedishes/*.{h,m}"
+        },
+        {
+          "name": "recipedishes",
+          "source_files": "XCFPTApiKit/viewmodels/recipedishes/*.{h,m}"
+        },
+        {
+          "name": "recipeappraisal",
+          "source_files": "XCFPTApiKit/viewmodels/recipeappraisal/*.{h,m}"
+        },
+        {
+          "name": "ad",
+          "source_files": "XCFPTApiKit/viewmodels/ad/*.{h,m}"
+        },
+        {
+          "name": "samecityrecommendations",
+          "source_files": "XCFPTApiKit/viewmodels/samecityrecommendations/*.{h,m}"
+        },
+        {
+          "name": "recipefeeds",
+          "source_files": "XCFPTApiKit/viewmodels/recipefeeds/*.{h,m}"
+        },
+        {
+          "name": "recipequestion",
+          "source_files": "XCFPTApiKit/viewmodels/recipequestion/*.{h,m}"
+        },
+        {
+          "name": "recipepagemetainfo",
+          "source_files": "XCFPTApiKit/viewmodels/recipepagemetainfo/*.{h,m}"
+        },
+        {
+          "name": "courserate",
+          "source_files": "XCFPTApiKit/viewmodels/courserate/*.{h,m}"
+        },
+        {
+          "name": "notification",
+          "source_files": "XCFPTApiKit/viewmodels/notification/*.{h,m}"
+        },
+        {
+          "name": "similarquestion",
+          "source_files": "XCFPTApiKit/viewmodels/similarquestion/*.{h,m}"
+        },
+        {
+          "name": "ec",
+          "source_files": "XCFPTApiKit/viewmodels/ec/*.{h,m}"
+        },
+        {
+          "name": "classroom",
+          "source_files": "XCFPTApiKit/viewmodels/classroom/*.{h,m}"
+        },
+        {
+          "name": "coursefeedback",
+          "source_files": "XCFPTApiKit/viewmodels/coursefeedback/*.{h,m}"
+        },
+        {
+          "name": "account",
+          "source_files": "XCFPTApiKit/viewmodels/account/*.{h,m}"
+        },
+        {
+          "name": "discoverrecipe",
+          "source_files": "XCFPTApiKit/viewmodels/discoverrecipe/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "models",
+      "source_files": "XCFPTApiKit/models/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "equipment",
+          "source_files": "XCFPTApiKit/models/equipment/*.{h,m}"
+        },
+        {
+          "name": "chucode",
+          "source_files": "XCFPTApiKit/models/chucode/*.{h,m}"
+        },
+        {
+          "name": "questionnaire",
+          "source_files": "XCFPTApiKit/models/questionnaire/*.{h,m}"
+        },
+        {
+          "name": "welfare",
+          "source_files": "XCFPTApiKit/models/welfare/*.{h,m}"
+        },
+        {
+          "name": "similaressay",
+          "source_files": "XCFPTApiKit/models/similaressay/*.{h,m}"
+        },
+        {
+          "name": "interestedtag",
+          "source_files": "XCFPTApiKit/models/interestedtag/*.{h,m}"
+        },
+        {
+          "name": "search",
+          "source_files": "XCFPTApiKit/models/search/*.{h,m}"
+        },
+        {
+          "name": "similarrecipe",
+          "source_files": "XCFPTApiKit/models/similarrecipe/*.{h,m}"
+        },
+        {
+          "name": "advertiser",
+          "source_files": "XCFPTApiKit/models/advertiser/*.{h,m}",
+          "subspecs": [
+            {
+              "name": "ad",
+              "source_files": "XCFPTApiKit/models/ad/ad/*.{h,m}"
+            },
+            {
+              "name": "common",
+              "source_files": "XCFPTApiKit/models/ad/common/*.{h,m}"
+            }
+          ]
+        },
+        {
+          "name": "recipeappraisal",
+          "source_files": "XCFPTApiKit/models/recipeappraisal/*.{h,m}"
+        },
+        {
+          "name": "waterfallrecommendation",
+          "source_files": "XCFPTApiKit/models/waterfallrecommendation/*.{h,m}"
+        },
+        {
+          "name": "notification",
+          "source_files": "XCFPTApiKit/models/notification/*.{h,m}"
+        },
+        {
+          "name": "question",
+          "source_files": "XCFPTApiKit/models/question/*.{h,m}"
+        },
+        {
+          "name": "essay",
+          "source_files": "XCFPTApiKit/models/essay/*.{h,m}"
+        },
+        {
+          "name": "theme",
+          "source_files": "XCFPTApiKit/models/theme/*.{h,m}"
+        },
+        {
+          "name": "post",
+          "source_files": "XCFPTApiKit/models/post/*.{h,m}"
+        },
+        {
+          "name": "hybridlist",
+          "source_files": "XCFPTApiKit/models/hybridlist/*.{h,m}"
+        },
+        {
+          "name": "ec",
+          "source_files": "XCFPTApiKit/models/ec/*.{h,m}",
+          "subspecs": [
+            {
+              "name": "commentprompt",
+              "source_files": "XCFPTApiKit/models/ec/commentprompt/*.{h,m}"
+            },
+            {
+              "name": "markettab",
+              "source_files": "XCFPTApiKit/models/ec/markettab/*.{h,m}"
+            },
+            {
+              "name": "shop",
+              "source_files": "XCFPTApiKit/models/ec/shop/*.{h,m}"
+            },
+            {
+              "name": "review",
+              "source_files": "XCFPTApiKit/models/ec/review/*.{h,m}"
+            },
+            {
+              "name": "goods",
+              "source_files": "XCFPTApiKit/models/ec/goods/*.{h,m}"
+            }
+          ]
+        },
+        {
+          "name": "dish",
+          "source_files": "XCFPTApiKit/models/dish/*.{h,m}"
+        },
+        {
+          "name": "event",
+          "source_files": "XCFPTApiKit/models/event/*.{h,m}"
+        },
+        {
+          "name": "comment",
+          "source_files": "XCFPTApiKit/models/comment/*.{h,m}"
+        },
+        {
+          "name": "course",
+          "source_files": "XCFPTApiKit/models/course/*.{h,m}"
+        },
+        {
+          "name": "board",
+          "source_files": "XCFPTApiKit/models/board/*.{h,m}"
+        },
+        {
+          "name": "ad",
+          "source_files": "XCFPTApiKit/models/ad/*.{h,m}"
+        },
+        {
+          "name": "chustudio",
+          "source_files": "XCFPTApiKit/models/chustudio/*.{h,m}",
+          "subspecs": [
+            {
+              "name": "coursevoucher",
+              "source_files": "XCFPTApiKit/models/chustudio/coursevoucher/*.{h,m}"
+            },
+            {
+              "name": "classroomtab",
+              "source_files": "XCFPTApiKit/models/chustudio/classroomtab/*.{h,m}"
+            },
+            {
+              "name": "coursetag",
+              "source_files": "XCFPTApiKit/models/chustudio/coursetag/*.{h,m}"
+            },
+            {
+              "name": "courserate",
+              "source_files": "XCFPTApiKit/models/chustudio/courserate/*.{h,m}"
+            },
+            {
+              "name": "coursefeedback",
+              "source_files": "XCFPTApiKit/models/chustudio/coursefeedback/*.{h,m}"
+            }
+          ]
+        },
+        {
+          "name": "usersys",
+          "source_files": "XCFPTApiKit/models/usersys/*.{h,m}",
+          "subspecs": [
+            {
+              "name": "accountdeactivationapplication",
+              "source_files": "XCFPTApiKit/models/usersys/accountdeactivationapplication/*.{h,m}"
+            }
+          ]
+        },
+        {
+          "name": "recipe",
+          "source_files": "XCFPTApiKit/models/recipe/*.{h,m}"
+        },
+        {
+          "name": "user",
+          "source_files": "XCFPTApiKit/models/user/*.{h,m}"
+        },
+        {
+          "name": "common",
+          "source_files": "XCFPTApiKit/models/common/*.{h,m}"
+        }
+      ]
     }
   ]
 }
