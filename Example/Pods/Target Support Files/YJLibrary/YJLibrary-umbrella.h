@@ -10,10 +10,12 @@
 #endif
 #endif
 
-#import "PTApiNewageService+Signature.h"
-#import "PTApiNewageServicePrivate.h"
-#import "PTModel.h"
-#import "XCFPTApiKit.h"
+#import "PTADInfoMessage.h"
+#import "PTADMessage.h"
+#import "PTSdkAdMessage.h"
+#import "PTSdkAdScheduleMessage.h"
+#import "PTSlotADInfoMessage.h"
+#import "PTADTypeEnum.h"
 #import "PTAdvertiserAccessTopTenStatisticMessage.h"
 #import "PTAdvertiserDataStatisticMessage.h"
 #import "PTAdvertiserKeywordStatisticMessage.h"
@@ -25,12 +27,6 @@
 #import "PTOptionStatsListMessage.h"
 #import "PTOptionStatsMessage.h"
 #import "PTQuestionnaireStatsMessage.h"
-#import "PTADInfoMessage.h"
-#import "PTADMessage.h"
-#import "PTSdkAdMessage.h"
-#import "PTSdkAdScheduleMessage.h"
-#import "PTSlotADInfoMessage.h"
-#import "PTADTypeEnum.h"
 #import "PTBoardMessage.h"
 #import "PTTargetMessage.h"
 #import "PTTargetTypeEnum.h"
@@ -232,6 +228,9 @@
 #import "PTSummaryMessage.h"
 #import "PTUserHomeMapMessage.h"
 #import "PTWelfareViewMessage.h"
+#import "PTApiNewageService+Signature.h"
+#import "PTApiNewageServicePrivate.h"
+#import "PTModel.h"
 #import "PTApiNewageService+Account.h"
 #import "PTApiNewageService+AD.h"
 #import "PTApiNewageService+Advertiser.h"
@@ -622,6 +621,7 @@
 #import "PTGetUserWelfareViewRespMessage.h"
 #import "PTPagedUserHistoricalWelfareViewsReqMessage.h"
 #import "PTPagedUserHistoricalWelfareViewsRespMessage.h"
+#import "XCFPTApiKit.h"
 
 FOUNDATION_EXPORT double YJLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char YJLibraryVersionString[];

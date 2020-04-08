@@ -4,8 +4,4 @@ platform :ios, '8.0'
 
 target 'YJLibrary_Example' do
   pod 'YJLibrary', :path => '../'
-
-  target 'YJLibrary_Tests' do
-    inherit! :search_paths
-  end
 end
