@@ -1,6 +1,6 @@
 {
   "name": "YJLibrary",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "summary": "sunyongjideku",
   "description": "my library yong  yu ceshi lai shiyong de",
   "homepage": "https://github.com/sunforcode/YJLibrary",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/sunforcode/YJLibrary.git",
-    "tag": "0.6.0"
+    "tag": "0.6.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XCFPTApiKit/**/*.{h,m}",
+  "source_files": "XCFPTApiKit1/**/*.{h,m}",
   "dependencies": {
     "AFNetworking": [
 
