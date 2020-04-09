@@ -1,6 +1,6 @@
 {
   "name": "YJLibrary",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "summary": "sunyongjideku",
   "description": "my library yong  yu ceshi lai shiyong de",
   "homepage": "https://github.com/sunforcode/YJLibrary",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sunforcode/YJLibrary.git",
-    "tag": "0.5.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "8.0"

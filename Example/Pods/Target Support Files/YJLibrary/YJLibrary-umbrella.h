@@ -29,7 +29,6 @@
 #import "PTQuestionnaireStatsMessage.h"
 #import "PTBoardMessage.h"
 #import "PTTargetMessage.h"
-#import "PTTargetTypeEnum.h"
 #import "PTChucodeMessage.h"
 #import "PTClassroomTabExtraMessage.h"
 #import "PTClassroomTabMessage.h"
